@@ -2,15 +2,13 @@
 Sample
 ============================
 
-============================
 对象属性 | Object Attributes
 ============================
 
 单位属性
-========
+--------
 
-物理攻击力
-----------
+**# 物理攻击力**
 
 读取：
 - 白字 - enums.attr.unit_state_atk_base
@@ -22,8 +20,7 @@ Sample
 - 绿字 - enums.attr.unit_atk_base_eqp - enums.attr.unit_atk_base_skl - enums.attr.unit_atk_base_ext
 - 百分比 - ?
 
-法术攻击力
-----------
+**# 法术攻击力**
 
 读取：
 - 白字 - enums.attr.unit_state_mag_base
