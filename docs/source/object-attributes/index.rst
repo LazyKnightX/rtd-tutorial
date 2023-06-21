@@ -377,3 +377,147 @@
 
 * enums.attr.unit_mhp_ext1
 
+力量增幅 str_pup (power up)
+----------------
+
+读取：
+
+* enums.attr.unit_str_pup
+
+修改：
+
+* enums.attr.unit_str_pup
+
+敏捷增幅 agi_pup
+----------------
+
+读取：
+
+* enums.attr.unit_agi_pup
+
+修改：
+
+* enums.attr.unit_agi_pup
+
+智力增幅 int_pup
+----------------
+
+读取：
+
+* enums.attr.unit_int_pup
+
+修改：
+
+* enums.attr.unit_int_pup
+
+攻击增幅 atk_pup
+----------------
+
+读取：
+
+* enums.attr.unit_atk_pup
+
+修改：
+
+* enums.attr.unit_atk_pup
+
+法强增幅 mag_pup
+----------------
+
+读取：
+
+* enums.attr.unit_mag_pup
+
+修改：
+
+* enums.attr.unit_mag_pup
+
+攻击真伤增幅 rel_pup
+----------------
+
+读取：
+
+* enums.attr.unit_rel_pup
+
+修改：
+
+* enums.attr.unit_rel_pup
+
+护甲增幅 def_pup
+----------------
+
+读取：
+
+* enums.attr.unit_def_pup
+
+修改：
+
+* enums.attr.unit_def_pup
+
+法抗增幅 mdf_pup
+----------------
+
+读取：
+
+* enums.attr.unit_mdf_pup
+
+修改：
+
+* enums.attr.unit_mdf_pup
+
+生命成长加成 mhp_grow_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_mhp_grow_bonus
+
+修改：
+
+* enums.attr.unit_mhp_grow_bonus
+
+力量成长加成 str_grow_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_str_grow_bonus
+
+修改：
+
+* enums.attr.unit_str_grow_bonus
+
+敏捷成长加成 agi_grow_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_agi_grow_bonus
+
+修改：
+
+* enums.attr.unit_agi_grow_bonus
+
+智力成长加成 int_grow_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_int_grow_bonus
+
+修改：
+
+* enums.attr.unit_int_grow_bonus
+
+装备加成 eqp_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_eqp_bonus
+
+修改：
+
+* enums.attr.unit_eqp_bonus
+
+
