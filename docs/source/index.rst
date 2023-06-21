@@ -20,4 +20,4 @@ Contents
 
    usage
    api
-   object-attributes
+   sample
