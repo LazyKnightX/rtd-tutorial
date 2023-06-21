@@ -255,3 +255,125 @@
 
 * 白字 - enums.attr.unit_fiu_base
 * 绿字 - enums.attr.unit_fiu_base_eqp - enums.attr.unit_fiu_base_skl - enums.attr.unit_fiu_base_ext
+
+力量加成 str_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_str_bonus
+
+修改：
+
+* enums.attr.unit_str_bonus
+
+敏捷加成 agi_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_agi_bonus
+
+修改：
+
+* enums.attr.unit_agi_bonus
+
+智力加成 int_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_int_bonus
+
+修改：
+
+* enums.attr.unit_int_bonus
+
+攻击加成 atk_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_atk_bonus
+
+修改：
+
+* enums.attr.unit_atk_bonus
+
+法强加成 mag_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_mag_bonus
+
+修改：
+
+* enums.attr.unit_mag_bonus
+
+攻击真伤加成 rel_bonus_atk
+----------------
+
+读取：
+
+* enums.attr.unit_rel_bonus_atk
+
+修改：
+
+* enums.attr.unit_rel_bonus_atk
+
+生命加成 mhp_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_mhp_bonus
+
+修改：
+
+* enums.attr.unit_mhp_bonus
+
+法力加成 mmp_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_mmp_bonus
+
+修改：
+
+* enums.attr.unit_mmp_bonus
+
+护甲加成 def_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_def_bonus
+
+修改：
+
+* enums.attr.unit_def_bonus
+
+魔抗加成 mdf_bonus
+----------------
+
+读取：
+
+* enums.attr.unit_mdf_bonus
+
+修改：
+
+* enums.attr.unit_mdf_bonus
+
+生命EXT1 mhp_ext1
+----------------
+
+读取：
+
+* enums.attr.unit_mhp_ext1
+
+修改：
+
+* enums.attr.unit_mhp_ext1
+
