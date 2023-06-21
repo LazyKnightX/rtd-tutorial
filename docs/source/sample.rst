@@ -1,13 +1,9 @@
-============================
 Sample
 ============================
 
-******************
-对象属性
-******************
-
 .. toctree::
-   :maxdepth: 3
-   :caption: Contents:
+   :maxdepth: 2
+   :hidden:
+   :caption: 对象属性
 
-   object-attributes/index
+   /object-attributes/index

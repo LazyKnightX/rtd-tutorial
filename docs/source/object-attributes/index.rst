@@ -231,3 +231,27 @@
 
 * 白字 - enums.attr.unit_exp_bonus_base
 * 绿字 - enums.attr.unit_exp_bonus_base_eqp - enums.attr.unit_exp_bonus_base_skl - enums.attr.unit_exp_bonus_base_ext
+
+适应属性
+----------------
+
+读取：
+
+* 总值 - enums.attr.unit_state_fid
+
+修改：
+
+* 白字 - enums.attr.unit_fid_base
+* 绿字 - enums.attr.unit_fid_base_eqp - enums.attr.unit_fid_base_skl - enums.attr.unit_fid_base_ext
+
+弥补属性
+----------------
+
+读取：
+
+* 总值 - enums.attr.unit_state_fiu
+
+修改：
+
+* 白字 - enums.attr.unit_fiu_base
+* 绿字 - enums.attr.unit_fiu_base_eqp - enums.attr.unit_fiu_base_skl - enums.attr.unit_fiu_base_ext
