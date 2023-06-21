@@ -5,4 +5,4 @@ Sample
    :maxdepth: 2
    :caption: 对象属性
 
-   /object-attributes
+   /object-attributes/index
