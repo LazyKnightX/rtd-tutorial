@@ -1,5 +1,5 @@
 ----------------
-单位事件 | enums.msg.unit
+单位事件 | enums.msgu.unit
 ----------------
 
 单位攻击敌人 | enums.msgu.unit_attack
