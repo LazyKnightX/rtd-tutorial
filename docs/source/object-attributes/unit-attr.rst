@@ -2,7 +2,7 @@
 单位属性
 ******************
 
-力量
+力量 str
 ----------------
 
 读取：
@@ -16,7 +16,7 @@
 * 白字 - enums.attr.unit_str_base
 * 绿字 - enums.attr.unit_str_base_eqp - enums.attr.unit_str_base_skl - enums.attr.unit_str_base_ext
 
-敏捷
+敏捷 agi
 ----------------
 
 读取：
@@ -30,7 +30,7 @@
 * 白字 - enums.attr.unit_agi_base
 * 绿字 - enums.attr.unit_agi_base_eqp - enums.attr.unit_agi_base_skl - enums.attr.unit_agi_base_ext
 
-智力
+智力 int
 ----------------
 
 读取：
@@ -44,7 +44,7 @@
 * 白字 - enums.attr.unit_int_base
 * 绿字 - enums.attr.unit_int_base_eqp - enums.attr.unit_int_base_skl - enums.attr.unit_int_base_ext
 
-物理攻击力
+物理攻击力 atk
 ----------------
 
 读取：
@@ -58,7 +58,7 @@
 * 白字 - enums.attr.unit_atk_base
 * 绿字 - enums.attr.unit_atk_base_eqp - enums.attr.unit_atk_base_skl - enums.attr.unit_atk_base_ext
 
-法术攻击力
+法术攻击力 mag
 ----------------
 
 读取：
@@ -72,7 +72,7 @@
 * 白字 - enums.attr.unit_mag_base
 * 绿字 - enums.attr.unit_mag_base_eqp - enums.attr.unit_mag_base_skl - enums.attr.unit_mag_base_ext
 
-攻击真伤
+攻击真伤 rel
 ----------------
 
 读取：
@@ -86,7 +86,7 @@
 * 白字 - enums.attr.unit_rel_base
 * 绿字 - enums.attr.unit_rel_base_eqp - enums.attr.unit_rel_base_skl - enums.attr.unit_rel_base_ext
 
-最大生命值
+最大生命值 mhp
 ----------------
 
 读取：
@@ -98,7 +98,7 @@
 * 白字 - enums.attr.unit_mhp_base
 * 绿字 - enums.attr.unit_mhp_base_eqp - enums.attr.unit_mhp_base_skl - enums.attr.unit_mhp_base_ext
 
-最大法力值
+最大法力值 mmp
 ----------------
 
 读取：
@@ -110,7 +110,7 @@
 * 白字 - enums.attr.unit_mmp_base
 * 绿字 - enums.attr.unit_mmp_base_eqp - enums.attr.unit_mmp_base_skl - enums.attr.unit_mmp_base_ext
 
-护甲
+护甲 def
 ----------------
 
 读取：
@@ -124,7 +124,7 @@
 * 白字 - enums.attr.unit_def_base
 * 绿字 - enums.attr.unit_def_base_eqp - enums.attr.unit_def_base_skl - enums.attr.unit_def_base_ext
 
-魔法抗性
+魔法抗性 mdf
 ----------------
 
 读取：
@@ -138,7 +138,7 @@
 * 白字 - enums.attr.unit_mdf_base
 * 绿字 - enums.attr.unit_mdf_base_eqp - enums.attr.unit_mdf_base_skl - enums.attr.unit_mdf_base_ext
 
-力量成长
+力量成长 str_grow
 ----------------
 
 读取：
@@ -150,7 +150,7 @@
 * 白字 - enums.attr.unit_str_grow_base
 * 绿字 - enums.attr.unit_str_grow_base_eqp - enums.attr.unit_str_grow_base_skl - enums.attr.unit_str_grow_base_ext
 
-敏捷成长
+敏捷成长 agi_grow
 ----------------
 
 读取：
@@ -162,7 +162,7 @@
 * 白字 - enums.attr.unit_agi_grow_base
 * 绿字 - enums.attr.unit_agi_grow_base_eqp - enums.attr.unit_agi_grow_base_skl - enums.attr.unit_agi_grow_base_ext
 
-智力成长
+智力成长 int_grow
 ----------------
 
 读取：
@@ -174,7 +174,7 @@
 * 白字 - enums.attr.unit_int_grow_base
 * 绿字 - enums.attr.unit_int_grow_base_eqp - enums.attr.unit_int_grow_base_skl - enums.attr.unit_int_grow_base_ext
 
-生命成长
+生命成长 mhp_grow
 ----------------
 
 读取：
@@ -186,7 +186,7 @@
 * 白字 - enums.attr.unit_mhp_grow_base
 * 绿字 - enums.attr.unit_mhp_grow_base_eqp - enums.attr.unit_mhp_grow_base_skl - enums.attr.unit_mhp_grow_base_ext
 
-攻击成长
+攻击成长 atk_grow
 ----------------
 
 读取：
@@ -197,7 +197,7 @@
 
 * 总值 - enums.attr.unit_atk_grow
 
-法强成长
+法强成长 mag_grow
 ----------------
 
 读取：
@@ -208,7 +208,7 @@
 
 * 总值 - enums.attr.unit_mag_grow
 
-成长翻倍率
+成长翻倍率 gro_bonus_rate
 ----------------
 
 读取：
@@ -220,7 +220,7 @@
 * 白字 - enums.attr.unit_gro_bonus_rate_base
 * 绿字 - enums.attr.unit_gro_bonus_rate_base_eqp - enums.attr.unit_gro_bonus_rate_base_skl - enums.attr.unit_gro_bonus_rate_base_ext
 
-经验加成
+经验加成 exp_bonus
 ----------------
 
 读取：
@@ -232,7 +232,7 @@
 * 白字 - enums.attr.unit_exp_bonus_base
 * 绿字 - enums.attr.unit_exp_bonus_base_eqp - enums.attr.unit_exp_bonus_base_skl - enums.attr.unit_exp_bonus_base_ext
 
-适应属性
+适应属性 fid
 ----------------
 
 读取：
@@ -244,7 +244,7 @@
 * 白字 - enums.attr.unit_fid_base
 * 绿字 - enums.attr.unit_fid_base_eqp - enums.attr.unit_fid_base_skl - enums.attr.unit_fid_base_ext
 
-弥补属性
+弥补属性 fiu
 ----------------
 
 读取：
