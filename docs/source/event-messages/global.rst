@@ -9,35 +9,35 @@
 
     ()
 
---游戏开始 | enums.msg.game_start
+游戏开始 | enums.msg.game_start
 ----------------
 
 参数：
 
     ()
 
---游戏超出缓冲时间 | enums.msg.game_out_of_buffer_time
+游戏超出缓冲时间 | enums.msg.game_out_of_buffer_time
 ----------------
 
 参数：
 
     ()
 
---游戏模式选择完成 | enums.msg.game_mode_selected
+游戏模式选择完成 | enums.msg.game_mode_selected
 ----------------
 
 参数：
 
     (id: integer)
 
---游戏难度选择完成 | enums.msg.game_diff_selected
+游戏难度选择完成 | enums.msg.game_diff_selected
 ----------------
 
 参数：
 
     (id: integer)
 
---游戏英雄选择完成 | enums.msg.game_hero_selected
+游戏英雄选择完成 | enums.msg.game_hero_selected
 ----------------
 
 参数：
@@ -48,245 +48,245 @@
 单位事件 | enums.msg.unit
 ----------------
 
---单位进入地图 | enums.msg.unit_enter_map
+单位进入地图 | enums.msg.unit_enter_map
 ----------------
 
 参数：
 
     (u: cls_unit)
 
---单位出生 | enums.msg.unit_birth
+单位出生 | enums.msg.unit_birth
 ----------------
 
 参数：
 
     (u: cls_unit)
 
---单位死亡 | enums.msg.unit_die
+单位死亡 | enums.msg.unit_die
 ----------------
 
 参数：
 
     (u: cls_unit, u_killer)
 
---单位被摧毁 | enums.msg.unit_destroy
+单位被摧毁 | enums.msg.unit_destroy
 ----------------
 
 参数：
 
     (u: cls_unit)
 
---单位复活 | enums.msg.unit_revive
+单位复活 | enums.msg.unit_revive
 ----------------
 
 参数：
 
     (u: cls_unit)
 
---单位提升等级 | enums.msg.unit_levelup
+单位提升等级 | enums.msg.unit_levelup
 ----------------
 
 参数：
 
     (u: cls_unit, plr: cls_player, levels: integer)
 
---单位击杀敌人 | enums.msg.unit_kill
+单位击杀敌人 | enums.msg.unit_kill
 ----------------
 
 参数：
 
     (u: cls_unit, u_die: cls_unit)
 
---单位攻击敌人 | enums.msg.unit_attack
+单位攻击敌人 | enums.msg.unit_attack
 ----------------
 
 参数：
 
     (u: cls_unit, u_attacked: cls_unit)
 
---单位被攻击 | enums.msg.unit_attacked
+单位被攻击 | enums.msg.unit_attacked
 ----------------
 
 参数：
 
     (u: cls_unit, u_attack: cls_unit)
 
---单位造成伤害前演算伤害 | 在事件内直接修改 data.damage 可以修改最终伤害值 | enums.msg.unit_damage_calc
+单位造成伤害前演算伤害 | 在事件内直接修改 data.damage 可以修改最终伤害值 | enums.msg.unit_damage_calc
 ----------------
 
 参数：
 
     (u: cls_unit, u_damaged: cls_unit, data: damage_event_data)
 
---单位造成伤害 | 警告：不要在这个事件里改变伤害数值 | enums.msg.unit_damage
+单位造成伤害 | 警告：不要在这个事件里改变伤害数值 | enums.msg.unit_damage
 ----------------
 
 参数：
 
     (u: cls_unit, u_damaged: cls_unit, data: damage_event_data)
 
---单位受到伤害前演算伤害 | 在事件内直接修改 data.damage 可以修改最终伤害值 | enums.msg.unit_damaged_calc
+单位受到伤害前演算伤害 | 在事件内直接修改 data.damage 可以修改最终伤害值 | enums.msg.unit_damaged_calc
 ----------------
 
 参数：
 
     (u: cls_unit, u_damage_source: cls_unit, data: damage_event_data)
 
---单位受到伤害 | 警告：不要在这个事件里改变伤害数值 | enums.msg.unit_damaged
+单位受到伤害 | 警告：不要在这个事件里改变伤害数值 | enums.msg.unit_damaged
 ----------------
 
 参数：
 
     (u: cls_unit, u_damage_source: cls_unit, data: damage_event_data)
 
---单位被点击 | enums.msg.unit_clicked
+单位被点击 | enums.msg.unit_clicked
 ----------------
 
 参数：
 
     (u: cls_unit, plr: cls_player)
 
---单位被取消点击 | enums.msg.unit_clicked_off
+单位被取消点击 | enums.msg.unit_clicked_off
 ----------------
 
 参数：
 
     (u: cls_unit, plr: cls_player)
 
---单位获得技能 | enums.msg.unit_gain_skill
+单位获得技能 | enums.msg.unit_gain_skill
 ----------------
 
 参数：
 
     (u: cls_unit, skl: cls_skill)
 
---单位失去技能 | enums.msg.unit_drop_skill
+单位失去技能 | enums.msg.unit_drop_skill
 ----------------
 
 参数：
 
     (u: cls_unit, skl: cls_skill)
 
---单位获得技能卡 | enums.msg.unit_gain_skill_card
+单位获得技能卡 | enums.msg.unit_gain_skill_card
 ----------------
 
 参数：
 
     (u: cls_unit, key: string, card: cls_skill_card)
 
---单位失去技能卡 | enums.msg.unit_drop_skill_card
+单位失去技能卡 | enums.msg.unit_drop_skill_card
 ----------------
 
 参数：
 
     (u: cls_unit, key: string, card: cls_skill_card)
 
---单位使用技能卡 | enums.msg.unit_use_skill_card
+单位使用技能卡 | enums.msg.unit_use_skill_card
 ----------------
 
 参数：
 
     (u: cls_unit, index: integer)
 
---单位获得英雄卡 | enums.msg.unit_gain_hero_card
+单位获得英雄卡 | enums.msg.unit_gain_hero_card
 ----------------
 
 参数：
 
     (u: cls_unit, key: string, card: cls_hero_card)
 
---单位失去英雄卡 | enums.msg.unit_drop_hero_card
+单位失去英雄卡 | enums.msg.unit_drop_hero_card
 ----------------
 
 参数：
 
     (u: cls_unit, key: string, card: cls_hero_card)
 
---单位使用英雄卡 | enums.msg.unit_use_hero_card
+单位使用英雄卡 | enums.msg.unit_use_hero_card
 ----------------
 
 参数：
 
     (u: cls_unit, index: integer)
 
---单位获得物品 | enums.msg.unit_gain_item
+单位获得物品 | enums.msg.unit_gain_item
 ----------------
 
 参数：
 
     (u: cls_unit, itm: cls_item)
 
---单位失去物品 | enums.msg.unit_drop_item
+单位失去物品 | enums.msg.unit_drop_item
 ----------------
 
 参数：
 
     (u: cls_unit, itm: cls_item)
 
---单位摧毁物品 | enums.msg.unit_destroy_item
+单位摧毁物品 | enums.msg.unit_destroy_item
 ----------------
 
 参数：
 
     (u: cls_unit, itm: cls_item)
 
---单位使用物品 | enums.msg.unit_use_item
+单位使用物品 | enums.msg.unit_use_item
 ----------------
 
 参数：
 
     (u: cls_unit, itm: cls_item)
 
---单位移动物品 | enums.msg.unit_move_item
+单位移动物品 | enums.msg.unit_move_item
 ----------------
 
 参数：
 
     (u: cls_unit, itm: cls_item, slot: integer)
 
---单位右键双击物品 | enums.msg.unit_double_click_item_right
+单位右键双击物品 | enums.msg.unit_double_click_item_right
 ----------------
 
 参数：
 
     (u: cls_unit, itm: cls_item)
 
---单位发布点目标指令 | enums.msg.unit_issue_order_point
+单位发布点目标指令 | enums.msg.unit_issue_order_point
 ----------------
 
 参数：
 
     (u: cls_unit, point: cls_point, order, order_id)
 
---单位开始被建造 | enums.msg.unit_build_start
+单位开始被建造 | enums.msg.unit_build_start
 ----------------
 
 参数：
 
     (u: cls_unit)
 
---单位完成被建造 | enums.msg.unit_build_finish
+单位完成被建造 | enums.msg.unit_build_finish
 ----------------
 
 参数：
 
     (u: cls_unit)
 
---单位注意到攻击目标 | enums.msg.unit_acquired_target
+单位注意到攻击目标 | enums.msg.unit_acquired_target
 ----------------
 
 参数：
 
     (u: cls_unit, u_target: cls_unit)
 
---单位使用治疗药水F | enums.msg.unit_use_heal_potion_F
+单位使用治疗药水F | enums.msg.unit_use_heal_potion_F
 ----------------
 
 参数：
 
     (u: cls_unit)
 
---单位发动技能效果 | enums.msg.unit_cast_skill_effect
+单位发动技能效果 | enums.msg.unit_cast_skill_effect
 ----------------
 
 参数：
