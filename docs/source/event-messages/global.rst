@@ -2,7 +2,7 @@
 游戏事件 | enums.msg.game
 ----------------
 
---游戏启动 | enums.msg.game_boot
+游戏启动 | enums.msg.game_boot
 ----------------
 
 参数：
