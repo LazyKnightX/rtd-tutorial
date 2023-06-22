@@ -115,29 +115,37 @@
 
     (u: cls_unit, u_attack: cls_unit)
 
-单位造成伤害前演算伤害 | 在事件内直接修改 data.damage 可以修改最终伤害值 | enums.msg.unit_damage_calc
+单位造成伤害前演算伤害 | enums.msg.unit_damage_calc
 ----------------
+
+在事件内直接修改 data.damage 可以修改最终伤害值
 
 参数：
 
     (u: cls_unit, u_damaged: cls_unit, data: damage_event_data)
 
-单位造成伤害 | 警告：不要在这个事件里改变伤害数值 | enums.msg.unit_damage
+单位造成伤害 | enums.msg.unit_damage
 ----------------
+
+警告：不要在这个事件里改变伤害数值
 
 参数：
 
     (u: cls_unit, u_damaged: cls_unit, data: damage_event_data)
 
-单位受到伤害前演算伤害 | 在事件内直接修改 data.damage 可以修改最终伤害值 | enums.msg.unit_damaged_calc
+单位受到伤害前演算伤害 | enums.msg.unit_damaged_calc
 ----------------
+
+在事件内直接修改 data.damage 可以修改最终伤害值
 
 参数：
 
     (u: cls_unit, u_damage_source: cls_unit, data: damage_event_data)
 
-单位受到伤害 | 警告：不要在这个事件里改变伤害数值 | enums.msg.unit_damaged
+单位受到伤害 | enums.msg.unit_damaged
 ----------------
+
+警告：不要在这个事件里改变伤害数值
 
 参数：
 

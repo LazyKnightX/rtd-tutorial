@@ -3,13 +3,13 @@
 ******************
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
    :caption: 全局事件
 
    /event-messages/global
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
    :caption: 单位事件
 
    /event-messages/unit
