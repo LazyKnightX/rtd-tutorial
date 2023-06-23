@@ -191,3 +191,10 @@
 参数：
 
     (u: cls_unit, gid_s: string)
+
+单位开始冲锋 | enums.msgu.unit_start_dash
+----------------
+
+参数：
+
+    (u: cls_unit, p: cls_point)
