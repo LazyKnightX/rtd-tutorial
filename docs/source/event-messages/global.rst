@@ -92,7 +92,7 @@
 
 参数：
 
-    (u: cls_unit, plr: cls_player, levels: integer)
+    (u: cls_unit, plr: cls_player, changed_levels: integer)
 
 单位击杀敌人 | enums.msg.unit_kill
 ----------------
@@ -573,14 +573,14 @@
 
 参数：
 
-    (hero: cls_unit, plr: cls_player, levels: integer) | levels - 提升的等级数量
+    (hero: cls_unit, plr: cls_player, changed_levels: integer) | changed_levels - 提升的等级数量
 
 玩家英雄提升等级前 | enums.msg.hero_levelup_before
 ----------------
 
 参数：
 
-    (hero: cls_unit, plr: cls_player, levels: integer) | levels - 提升的等级数量
+    (hero: cls_unit, plr: cls_player, changed_levels: integer) | changed_levels - 提升的等级数量
 
 ----------------
 硬件 | enums.msg.hardware
