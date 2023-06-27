@@ -770,3 +770,28 @@ async 异步事件
 参数：
 
     (store: cls_unit, sold_to: cls_unit, consume_data: consume_event_data)
+
+----------------
+挑战 | enums.msg.clg
+----------------
+
+挑战开始 | enums.msg.clg_start
+----------------
+
+参数：
+
+    (plr: cls_player, data: clg_event_data)
+
+挑战成功 | enums.msg.clg_success
+----------------
+
+参数：
+
+    (plr: cls_player, data: clg_event_data)
+
+挑战失败 | enums.msg.clg_fail
+----------------
+
+参数：
+
+    (plr: cls_player, data: clg_event_data)
