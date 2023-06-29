@@ -24,3 +24,9 @@ Sample
    @alias dynamic_integer integer|fun(plr: cls_player):integer
    method: read_dynamic_integer
 
+**访问KEY Access Key**
+
+访问KEY：可能为整数也可能为字符串的字典KEY。
+
+.. code-block:: lua
+   @alias access_key integer|string
