@@ -20,7 +20,7 @@ Sample
 
 动态整数：根据输入的玩家不同而有可能有不同返回值的整数。
 
-```lua
-@alias dynamic_integer integer|fun(plr: cls_player):integer
-method: read_dynamic_integer
-```
+.. code-block:: lua
+   @alias dynamic_integer integer|fun(plr: cls_player):integer
+   method: read_dynamic_integer
+
