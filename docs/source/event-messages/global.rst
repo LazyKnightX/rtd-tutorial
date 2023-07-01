@@ -568,6 +568,13 @@
 
     (hero: cls_unit, plr: cls_player)
 
+玩家英雄创建完成 | enums.msg.hero_create_finish
+----------------
+
+参数：
+
+    (hero: cls_unit, plr: cls_player)
+
 玩家英雄提升等级 | enums.msg.hero_levelup
 ----------------
 
