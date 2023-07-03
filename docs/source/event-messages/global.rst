@@ -92,7 +92,7 @@
 
 参数：
 
-    (u: cls_unit, plr: cls_player, levels: integer)
+    (u: cls_unit, plr: cls_player, changed_levels: integer)
 
 单位击杀敌人 | enums.msg.unit_kill
 ----------------
@@ -568,19 +568,26 @@
 
     (hero: cls_unit, plr: cls_player)
 
+玩家英雄创建完成 | enums.msg.hero_create_finish
+----------------
+
+参数：
+
+    (hero: cls_unit, plr: cls_player)
+
 玩家英雄提升等级 | enums.msg.hero_levelup
 ----------------
 
 参数：
 
-    (hero: cls_unit, plr: cls_player, levels: integer) | levels - 提升的等级数量
+    (hero: cls_unit, plr: cls_player, changed_levels: integer) | changed_levels - 提升的等级数量
 
 玩家英雄提升等级前 | enums.msg.hero_levelup_before
 ----------------
 
 参数：
 
-    (hero: cls_unit, plr: cls_player, levels: integer) | levels - 提升的等级数量
+    (hero: cls_unit, plr: cls_player, changed_levels: integer) | changed_levels - 提升的等级数量
 
 ----------------
 硬件 | enums.msg.hardware
@@ -770,3 +777,28 @@ async 异步事件
 参数：
 
     (store: cls_unit, sold_to: cls_unit, consume_data: consume_event_data)
+
+----------------
+挑战 | enums.msg.clg
+----------------
+
+挑战开始 | enums.msg.clg_start
+----------------
+
+参数：
+
+    (plr: cls_player, data: clg_event_data)
+
+挑战成功 | enums.msg.clg_success
+----------------
+
+参数：
+
+    (plr: cls_player, data: clg_event_data)
+
+挑战失败 | enums.msg.clg_fail
+----------------
+
+参数：
+
+    (plr: cls_player, data: clg_event_data)
